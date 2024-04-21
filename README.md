@@ -1,4 +1,4 @@
-👋 Hi, I’m @tiago-orozimbo
-Projeto Desenvolve - Itabira
-Curso de Introdução a Programação Web
-PDITA046
+-👋 Hi, I’m @tiago-orozimbo
+- Projeto Desenvolve - Itabira
+- Curso de Introdução a Programação Web
+- PDITA046
