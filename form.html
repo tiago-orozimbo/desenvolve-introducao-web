@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Satisfaction Search</title>
+    </head>
+    <body>
+        <h1>Satisfaction Search</h1>
+        <h2>Personal data</h2>
+        <form action="pagina-detino.html" method="post">
+            <p>
+                <label for="name"> Name:</label>
+                <input type="text" placeholder="Name" id="name"/> 
+            </p>
+            <p>
+                <label for="email"> Email:</label>
+                <input type="text" placeholder="E-mail" id="email"/> 
+            </p>
+            <p>
+                <label for="phone"> Phone:</label>
+                <input type="number" placeholder="Phone" id="phone"/>
+            </p>
+           <p> 
+                <h4>
+                    Relationship status:
+                </h4> 
+                <input type="radio" id="single" name="quention"/>
+                <label for="single">Silgle</label>
+                <input type="radio" id="married" name="quention" />
+                <label for="married">Married</label>
+                <input type="radio" id="divorced" name="question"/>
+                <label for="divorced">Divorced</label>
+                <input type="radio" id="widow" name="quention"/>
+                <label for="widow">Widow</label>
+           </p>
+           <p> 
+            <h4>
+                Do you have children?
+            </h4> 
+            <input type="radio" id="Yes" name="quention2"/>
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="quention2" />
+            <label for="No">No</label>
+       </p>
+           <p> 
+                <h4>
+                   Gender: 
+                </h4>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="ck" />
+                <label for="ck">I agree to share my answers with others</label>
+            </p>
+            <input type="submit" value="Send"/>
+        </form>
+    </body>
+</html>
