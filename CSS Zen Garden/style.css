@@ -2,14 +2,32 @@ html{
     background-color:#CDD977 ;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    max-width: 1280px;
+    text-align: center;
+    margin: auto;
 }
 p{
     color:#223A59 ;
     text-indent: 1em;
 }
 .intro{
-    color:#D5E7F2 ;
+    color:#dc0707 ;
     background-color:#AFBF36 ;
+    height: 550px;
+}
+.intro header{
+    background-color: #223A59;
+    color: aliceblue;
+}
+.intro header h1, .intro header  h2{
+    display: inline-block;
+
+}
+.intro header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+    
 }
 h1, h2, h3{
     text-align: center;
@@ -25,4 +43,21 @@ h3{font-size: 1.2rem;}
 }
 abbr{
     font-variant: small-caps;
+}
+.design-archives{
+    display: none;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+footer{
+    margin: 4%;
+}
+footer a {
+    border: solid 2px #223A59;
+    padding: 0.5em;
 }
