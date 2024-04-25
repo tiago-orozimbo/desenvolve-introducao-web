@@ -1,10 +1,28 @@
 html{
     background-color:#CDD977 ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
     color:#223A59 ;
+    text-indent: 1em;
 }
 .intro{
     color:#D5E7F2 ;
     background-color:#AFBF36 ;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+.summary{
+    text-align: center;
+}
+.main-supporting{
+    line-height: 1.5;
+}
+abbr{
+    font-variant: small-caps;
 }
