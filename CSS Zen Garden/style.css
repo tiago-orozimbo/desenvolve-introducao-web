@@ -61,3 +61,21 @@ footer a {
     border: solid 2px #223A59;
     padding: 0.5em;
 }
+.page-wrapper{
+    position: relative;
+}
+.explanation{
+    max-width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px  #1f295c;
+    margin-right: 2%;
+}
+.design-selection{
+    position: absolute;
+    top: 560px;
+    left: 58%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+
+}
