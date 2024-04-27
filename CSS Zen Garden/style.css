@@ -55,8 +55,12 @@ aside ul li{
     text-align: center;
 }
 footer{
-    margin: 4%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 60%;
 }
+
 footer a {
     border: solid 2px #223A59;
     padding: 0.5em;
@@ -77,5 +81,35 @@ footer a {
     padding-left: 2%;
     padding-right: 2%;
     margin: auto;
+}
+.benefits{
+    border-bottom: #1f295c solid 2px;
+    display: flex;
+}
+.benefits h3{
+    order: 2;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits p{
+    width: 70%;
+}
+.participation{
+    border-bottom: #1f295c solid 2px;
+    border-top: #1f295c solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.participation h3{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.participation p{
+    width: 50%;
+    
 }
