@@ -132,3 +132,50 @@ a:visited{
 .design-selection li:last-of-type{
     border-bottom: #dc0707 solid 5px;
 }
+@media screen and (max-width:760px)  {
+    .design-selection{
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border: none;
+        max-width: none;
+        margin: auto;
+    }
+    .intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .participation h3{
+        width: 100%;
+    }
+    .participation p{
+        width: 100%;
+    }
+    .benefits{
+        max-width: none;
+    }
+    .page-wrapper p:first-of-type:first-letter{
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        float: none;
+    }
+}
+@media print {
+    html{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        color: #1f295c;
+    }
+    .intro{
+        background-color: white;
+        color: #1f295c;
+    }
+    .intro header {
+        background-color: white;
+        color: #1f295c;
+    }
+}
