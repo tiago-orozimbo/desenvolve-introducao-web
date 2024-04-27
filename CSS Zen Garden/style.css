@@ -64,6 +64,14 @@ footer{
 footer a {
     border: solid 2px #223A59;
     padding: 0.5em;
+    color: #fd1e01;
+    font-weight: bold;
+}
+footer a:hover{
+    color: antiquewhite;
+}
+a:visited{
+    font-weight: normal;
 }
 .page-wrapper{
     position: relative;
@@ -112,4 +120,15 @@ footer a {
 .participation p{
     width: 50%;
     
+}
+.page-wrapper p:first-of-type:first-letter{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+.design-selection li{
+    border-top: black solid 2px;
+}
+.design-selection li:last-of-type{
+    border-bottom: #dc0707 solid 5px;
 }
